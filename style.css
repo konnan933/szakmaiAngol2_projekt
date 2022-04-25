@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+body {
+  background-color: rgb(139, 135, 135);
+  overflow-x: hidden;
+}
+main {
+  margin: auto;
+}
+#hatter {
+  height: 900px;
+  width: 100%;
+  background-image: url("kepek/kep_1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+section h1 {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  color: white;
+  position: absolute;
+  left: 50%;
+  opacity: 0.85;
+}
+nav {
+  position: sticky;
+  margin: auto;
+  background-color: #020202;
+  height: 50px;
+  width: 80%;
+  z-index: 0;
+  padding: 0px;
+  opacity: 0.85;
+}
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+nav ul {
+  margin: auto;
+  list-style-type: none;
+}
+nav ul img {
+  padding: 6px;
+  margin: auto;
+  width: 40px;
+}
+nav li {
+  margin: auto;
+  margin: 5px;
+}
+nav a {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+}
+.nav_anim {
+  transition: 500ms;
+}
+.nav_anim:hover {
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  color: #fa9c1e;
+  font-size: 23px;
+  transition-duration: 500ms;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bemutato {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 90%;
+  padding-top: 10px;
+}
+
+.bElemek {
+  width: 23%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  /*https://stackoverflow.com/questions/20751937/transition-background-color-via-slide-animation*/
+  background-size: 200% 200%;
+  background-image: linear-gradient(to right, black 50%, transparent 50%);
+  background-position: right;
+  transition: 900ms;
+  opacity: 0;
+}
+.character {
+  font-size: 15px;
+}
+
+.bElemek:hover {
+  opacity: 1;
+  background-position: left;
+}
+.bElemek p {
+  transition: 650ms;
+}
+.bElemek:hover p {
+  font-size: 50px;
+  color: #fa9c1e;
+  transition: 800ms;
+}
+.character:hover p {
+  font-size: 28px;
+}
+@media screen and (max-width: 770px) {
+  nav {
+    position: sticky;
+    margin: auto;
+    background-color: #020202;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    padding: 0px;
+    opacity: 0.85;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .bElemek {
+    width: 23%;
+    height: 70%;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Cairo", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    /*https://stackoverflow.com/questions/20751937/transition-background-color-via-slide-animation*/
+    background-size: 200% 200%;
+    background-color: #020202;
+    transition: 900ms;
+    opacity: 0.85;
+  }
+  .bElemek:hover p {
+    font-size: 20px;
+    color: #fa9c1e;
+    transition: 800ms;
+  }
+  section h1 {
+    display: none;
+  }
+}
