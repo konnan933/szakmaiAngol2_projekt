@@ -1,5 +1,5 @@
 body {
-    background-image: url("kepek/hatter.jpg");
+    background-image: url("kepek/vilagosHatter.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -10,15 +10,11 @@ main {
     margin: auto;
 }
 
-
-
 footer {
     text-align: center;
     background-color: white;
     margin-top: 50px;
-
 }
-
 
 footer p,
 footer a {
@@ -59,14 +55,12 @@ footer a {
     background-color: rgb(33, 33, 33);
     color: white;
     padding: 15px;
-
 }
 
 .pkepek {
     width: 100%;
     display: flex;
     justify-content: space-around;
-
 }
 
 .pkepek img {
@@ -87,32 +81,28 @@ footer a {
 
 .cim {
     background-color: rgba(245, 96, 21);
-
-
-}
-
-.cim h1{
-    padding: 15px;
-    text-align: center;
-    display: block;
-    
-}
-
-.cim h1, .tartalom p {
-    margin: 0px;
-}
-
-.tartalom {
-    
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: rgba(255, 255, 255, 0.555);
     margin: auto;
+}
+
+.cim h1 {
+    padding: 15px;
+    text-align: left;
     display: block;
+}
+
+.cim h1,
+.tartalom p {
+    margin: 0px;
+    padding: 15px;
 }
 
 .tartalomBelso {
     max-width: 1200px;
     margin: auto;
     background-color: white;
+}
+
+article,
+aside {
+    background-color: rgba(255, 255, 255, 0.555);
 }
