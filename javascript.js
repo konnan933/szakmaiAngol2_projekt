@@ -29,12 +29,18 @@ var kepek = [
 
 function init() {
   kepBetoltes();
-  for (let index = 0; index < 1; index++) {
+  for (let index = 0; index < 1; index++)
     tl.fromTo(here, 2, { x: "-100%" }, { x: "0%", ease: Power2.easeInOut });
+  setTimeout(function () {
+    tl.fromTo(here, 2, { x: "0%" }, { x: "200%", ease: Power2.easeInOut });
+  }, 4000);
+  setInterval(function () {
+    for (let index = 0; index < 1; index++)
+      tl.fromTo(here, 2, { x: "-100%" }, { x: "0%", ease: Power2.easeInOut });
     setTimeout(function () {
       tl.fromTo(here, 2, { x: "0%" }, { x: "200%", ease: Power2.easeInOut });
     }, 4000);
-  }
+  }, 10000);
 }
 function kepBetoltes() {
   ID("hatter").style.backgroundImage = "url(" + kepek[4] + ")";
