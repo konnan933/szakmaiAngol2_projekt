@@ -3,9 +3,11 @@
 body {
   background-color: rgb(139, 135, 135);
   overflow-x: hidden;
+  margin: 0;
 }
 main {
   margin: auto;
+  width: 98%;
 }
 #hatter {
   height: 900px;
@@ -32,13 +34,10 @@ nav {
   padding: 0px;
   opacity: 0.85;
 }
-ul {
-  list-style-type: none;
-  padding: 0%;
-}
 nav ul {
   margin: auto;
   list-style-type: none;
+  padding: 0%;
 }
 nav ul img {
   padding: 6px;
