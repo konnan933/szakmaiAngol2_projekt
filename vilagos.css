@@ -1,172 +1,163 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 
-body {
-    font-family: "Cairo", sans-serif;
-    background-image: url("kepek/vilagosHatter.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    margin: 0px;
+.lightbody {
+  font-family: "Cairo", sans-serif;
+  background-image: url("kepek/vilagosHatter.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0px;
 }
 
 main {
-    margin: auto;
-    width: 100%;
+  margin: auto;
+  width: 100%;
 }
 
 footer {
-    text-align: center;
-    background-color: white;
-    margin-top: 150px;
+  text-align: center;
+  background-color: white;
+  margin-top: 150px;
 }
 
 footer p,
 footer a {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .keszitok a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 footer img {
-    width: 300px;
+  width: 300px;
 }
 
 .h2 {
-    background-color: rgba(245, 96, 21, 0.689);
-    width: 300px;
-    padding: 5px;
+  background-color: rgba(245, 96, 21, 0.689);
+  width: 300px;
+  padding: 5px;
 }
 
-
 h3 {
-    background-color: rgba(245, 96, 21, 0.697);
-    width: 1200px;
-    padding: 5px;
-    text-align: center;
-    margin: auto;
-    padding: 15px;
+  background-color: rgba(245, 96, 21, 0.697);
+  width: 1200px;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
 }
 
 footer h2 {
-    text-align: center;
-    margin: 0px;
+  text-align: center;
+  margin: 0px;
 }
 
 footer a {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .foKozep p,
 .BP a,
 .DA a {
-    padding: 0px;
-    margin-top: 15px;
+  padding: 0px;
+  margin-top: 15px;
 }
 
 .keszitok {
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    background-color: rgb(33, 33, 33);
-    color: white;
-    padding: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  padding: 15px;
 }
 
 .pkepek {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .pkepek img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .pleirasok {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .BP,
 .DA,
 .foKozep {
-    display: grid;
+  display: grid;
 }
 
 .cim {
-    background-color: rgba(245, 96, 21, 0.823);
-    margin: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-
+  background-color: rgba(245, 96, 21, 0.823);
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-
 
 .cim h1 {
-    padding: 15px;
-    text-align: center;
-    display: block;
+  padding: 15px;
+  text-align: center;
+  display: block;
 }
-
-
 
 .cim h1,
 .tartalom p {
-    margin: 0px;
-    padding: 15px;
-    
+  margin: 0px;
+  padding: 15px;
 }
 
 h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .tartalom p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .tartalomBelso {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    padding-left: 0px;
-    max-width: 1200px;
-    align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-left: 0px;
+  max-width: 1200px;
+  align-items: center;
 }
 
 article,
 aside {
-    background-color: rgba(255, 255, 255, 0.803);
+  background-color: rgba(255, 255, 255, 0.803);
 }
 
 #trailer {
-    float: left;
-    padding: 10px;
+  float: left;
+  padding: 10px;
 }
 
 article {
-    margin-top: 300px;
+  margin-top: 300px;
 }
 
 .tartalom {
-    margin: 15px;
+  margin: 15px;
 }
-
 
 .roleok {
-    display: flex;
+  display: flex;
 }
-
-
