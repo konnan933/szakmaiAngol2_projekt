@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 
-body {
+.darkbody {
   background-color: rgb(139, 135, 135);
   overflow-x: hidden;
   margin: 0;
+  font-family: "Cairo", sans-serif;
 }
 main {
   margin: auto;
   width: 98%;
 }
 #hatter {
-  height: 900px;
+  height: 1000px;
   width: 100%;
   background-image: url("kepek/kep_1.jpg");
   background-size: cover;
@@ -55,6 +56,12 @@ nav a {
   text-decoration: none;
   font-size: 20px;
   color: #ffffff;
+}
+.footer {
+  margin: 0;
+}
+.hover {
+  font-size: 30px;
 }
 
 .nav_anim {
@@ -117,6 +124,15 @@ nav a {
 }
 .character:hover p {
   font-size: 28px;
+}
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  background: gray;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: #000;
+  border-radius: 10px;
 }
 @media screen and (max-width: 770px) {
   nav {
