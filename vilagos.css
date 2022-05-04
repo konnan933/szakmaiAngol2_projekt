@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
 body {
+    font-family: "Cairo", sans-serif;
     background-image: url("kepek/vilagosHatter.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -31,15 +34,15 @@ footer img {
 }
 
 .h2 {
-    background-color: rgba(245, 96, 21);
+    background-color: rgba(245, 96, 21, 0.689);
     width: 300px;
     padding: 5px;
 }
 
 
 h3 {
-    background-color: rgba(245, 96, 21);
-    width: 500px;
+    background-color: rgba(245, 96, 21, 0.697);
+    width: 1200px;
     padding: 5px;
     text-align: center;
     margin: auto;
@@ -97,16 +100,13 @@ footer a {
 }
 
 .cim {
-    background-color: rgba(245, 96, 21);
+    background-color: rgba(245, 96, 21, 0.823);
     margin: auto;
     padding-top: 25px;
     padding-bottom: 25px;
 
 }
 
-h1 {
-    font-size: 150%;
-}
 
 .cim h1 {
     padding: 15px;
@@ -120,12 +120,23 @@ h1 {
 .tartalom p {
     margin: 0px;
     padding: 15px;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.tartalom p {
     font-size: 25px;
 }
 
 .tartalomBelso {
     margin: auto;
-    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -136,7 +147,7 @@ h1 {
 
 article,
 aside {
-    background-color: rgba(255, 255, 255, 0.555);
+    background-color: rgba(255, 255, 255, 0.803);
 }
 
 #trailer {
@@ -150,7 +161,6 @@ article {
 
 .tartalom {
     margin: 15px;
-    background-color: white;
 }
 
 
