@@ -13,7 +13,7 @@ main {
 footer {
     text-align: center;
     background-color: white;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 footer p,
@@ -30,8 +30,21 @@ footer img {
     width: 300px;
 }
 
+.h2 {
+    background-color: rgba(245, 96, 21);
+    width: 300px;
+    padding: 5px;
+}
+
+.h3 {
+    background-color: rgba(245, 96, 21);
+    width: 100px;
+    padding: 5px;
+}
+
 footer h2 {
     text-align: center;
+    margin: 0px;
 }
 
 footer a {
@@ -82,27 +95,55 @@ footer a {
 .cim {
     background-color: rgba(245, 96, 21);
     margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+h1 {
+    font-size: 150%;
 }
 
 .cim h1 {
     padding: 15px;
-    text-align: left;
+    text-align: center;
     display: block;
 }
+
+
 
 .cim h1,
 .tartalom p {
     margin: 0px;
     padding: 15px;
+    font-size: 25px;
 }
 
 .tartalomBelso {
-    max-width: 1200px;
     margin: auto;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 0px;
 }
 
 article,
 aside {
     background-color: rgba(255, 255, 255, 0.555);
 }
+
+#trailer {
+    float: left;
+    padding: 10px;
+}
+
+article {
+    margin-top: 300px;
+}
+
+.tartalom {
+    margin: 15px;
+}
+
+
