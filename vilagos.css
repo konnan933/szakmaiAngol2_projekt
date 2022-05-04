@@ -36,10 +36,14 @@ footer img {
     padding: 5px;
 }
 
-.h3 {
+
+h3 {
     background-color: rgba(245, 96, 21);
-    width: 100px;
+    width: 500px;
     padding: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
 }
 
 footer h2 {
@@ -126,6 +130,8 @@ h1 {
     flex-direction: column;
     padding: 15px;
     padding-left: 0px;
+    max-width: 1200px;
+    align-items: center;
 }
 
 article,
@@ -144,6 +150,12 @@ article {
 
 .tartalom {
     margin: 15px;
+    background-color: white;
+}
+
+
+.roleok {
+    display: flex;
 }
 
 
